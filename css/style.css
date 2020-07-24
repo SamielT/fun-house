@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html {
+	background: linear-gradient(to right, #9EB25D, #EEFCCE);
+}
+
+.topNav {
+	position: relative;
+	overflow: hidden;
+	padding: 1em 1em 1em 1em;
+	background-color: #F1DB4B;
+}
+
+.topNav div {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.topNav #navLinks {
+	display: none;
+}
+
+.topNav a {
+  font-size: 24px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.topNav a.icon {
+  /*display: block;
+  position: absolute;*/
+}
+
+.burger a:hover {
+  color: #6c757d;
+}
+
+.burger ul {
+	transition: all .5s ease;
+}
+
