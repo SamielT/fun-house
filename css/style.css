@@ -1,46 +1,54 @@
 * {
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 html {
-	background: linear-gradient(to right, #9EB25D, #EEFCCE);
+    background: linear-gradient(to right, #ffffff, #EEFCCE);
 }
 
-.topNav {
-	position: relative;
-	overflow: hidden;
-	padding: 1em 1em 1em 1em;
-	background-color: #F1DB4B;
+.topnav {
+    padding: 0.3em 1.5em 0.3em 1.5em;
+    background-color: grey;
+    justify-content: space-between;
+    user-select: none;
 }
 
-.topNav div {
-	display: inline-block;
-	margin-right: 10px;
+.dropdown a {
+    padding: 10px;
+    color: black;
+    user-select: none;
 }
 
-.topNav #navLinks {
-	display: none;
+#dropdownMenuOffset {
+    font-size: 24px;
+    border: none;
+    background-color: transparent;
+    /* navagation burger */
 }
 
-.topNav a {
-  font-size: 24px;
-  display: block;
-  text-decoration: none;
-  color: black;
+.dropdown-menu a:active {
+    background-color: #aaa;
+    /* dropdown tile active color */
 }
 
-.topNav a.icon {
-  /*display: block;
-  position: absolute;*/
+.navtitle, .navtitle:hover {
+    font-size: 28px;
+    font-family: 600;
+    vertical-align: middle;
+    /* hover */
+    color: initial;
+    text-decoration: none;
 }
 
-.burger a:hover {
-  color: #6c757d;
+.topnav-right, .topnav-right:hover {
+    float: right;
+    font-size: 36px;
+    line-height: 0px;
+    /* hover */
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
 }
-
-.burger ul {
-	transition: all .5s ease;
-}
-
