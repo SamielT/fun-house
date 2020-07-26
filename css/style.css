@@ -34,21 +34,25 @@ html {
     /* dropdown tile active color */
 }
 
-.navtitle, .navtitle:hover {
+.navtitle {
     font-size: 28px;
     font-family: 600;
     vertical-align: middle;
-    /* hover */
-    color: initial;
+}
+
+.navtitle:hover {
+	color: initial;
     text-decoration: none;
 }
 
-.topnav-right, .topnav-right:hover {
+.topnav-right {
     float: right;
     font-size: 36px;
     line-height: 0px;
-    /* hover */
-    background-color: transparent;
+}
+
+.topnav-right:hover {
+	background-color: transparent;
     text-decoration: none;
     color: inherit;
 }
