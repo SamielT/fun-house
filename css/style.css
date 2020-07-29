@@ -143,7 +143,7 @@ html, body {
 
     .topsocial {
         float: right;
-        position: absolute;
+        position: sticky;
         display: block;
         margin-right: 10px;
         bottom: 0;
