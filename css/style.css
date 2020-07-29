@@ -9,8 +9,8 @@ html, body {
 }
 
 html {
-  /* overflow: hidden; */
-  scroll-behavior: smooth;
+    overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
