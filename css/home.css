@@ -1,0 +1,60 @@
+.main {
+    display: inline-block;
+    width: 100%;
+}
+
+.main div {
+    padding: 2rem;
+}
+
+.main a {}
+
+.intro {
+    text-align: center;
+    margin: 18% auto 18% auto;
+    background-color: rgba(108, 117, 125, 0.5);
+    width: 60%;
+}
+
+.intro h1, small {
+    animation: fadeIn;
+    animation-duration: 3s;
+}
+
+.intro h1 {
+    font-weight: bold;
+}
+
+.inspire {
+    float: left;
+    width: 70%;
+    background-color: rgba(2, 195, 154, 1);
+    color: black;
+    animation: slideInLeft;
+    animation-duration: 1.5s;
+}
+
+.inspire p {
+    animation: fadeInUp;
+    animation-duration: 3s;
+    float: right;
+    margin: auto;
+    font-size: 32px;
+}
+
+.impress {
+    float: right;
+    width: 70%;
+    background-color: rgba(5, 102, 141, 1);
+    color: white;
+    animation: slideInRight;
+    animation-duration: 1.5s;
+}
+
+.impress p {
+    animation: fadeInUp;
+    animation-duration: 3s;
+    font-size: 24px;
+    float: left;
+    margin: auto;
+}
