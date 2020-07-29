@@ -1,21 +1,12 @@
-.main {
-    display: inline-block;
-    width: 100%;
-}
-
-.main div {
+.mainbody div {
     padding: 2rem;
 }
-
-.main a {}
 
 .intro {
     text-align: center;
     background-color: rgba(108, 117, 125, 0.5);
-    height: 40%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 50%;
+    margin: 20% auto 20% auto;
 }
 
 .intro h1,small {
