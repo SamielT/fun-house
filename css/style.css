@@ -9,12 +9,12 @@ html, body {
 }
 
 html {
-  overflow: hidden;
+  /* overflow: hidden; */
   scroll-behavior: smooth;
 }
 
 body {
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 .topnav {
@@ -127,6 +127,7 @@ body {
 .mainbody {
   min-height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .bottom-footer {
