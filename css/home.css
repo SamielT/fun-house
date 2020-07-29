@@ -11,12 +11,13 @@
 
 .intro {
     text-align: center;
-    margin: 18% auto 18% auto;
     background-color: rgba(108, 117, 125, 0.5);
-    width: 60%;
+    height: 40%;
+    width: 80%;
+    margin: auto;
 }
 
-.intro h1, small {
+.intro h1,small {
     animation: fadeIn;
     animation-duration: 3s;
 }
