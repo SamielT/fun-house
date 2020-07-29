@@ -5,7 +5,15 @@ html, body {
     font-size: 16px;
     margin: 0px;
     padding: 0px;
-    overflow: auto;
+    overscroll-behavior: none;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  overflow: auto;
 }
 
 .topnav {
