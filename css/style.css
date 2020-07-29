@@ -7,6 +7,7 @@
 
 html body {
     background: linear-gradient(to right, #ffffff, #f0f3bd);
+    height: 100%;
 }
 
 .topnav {
@@ -111,44 +112,47 @@ html body {
     background-color: #0e76a8;
 }
 
-.bottom-footer {
-    text-align: right;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: static;
+.main {
+  min-height: 100%;
 }
 
-.bfooter-safe {
+.bottom-footer {
+    text-align: right;
+    position: relative;
     margin: 2rem 3rem 2rem 3rem;
 }
 
-.bfooter-safe hr {
+.bottom-footer hr {
     border-width: 2px;
     margin: 1rem 0rem 1rem 0rem;
     color: inherit;
 }
 
-.bfooter-safe a {
+.bottom-footer a {
     padding: 10px;
     color: inherit;
     font-size: 14px;
 }
 
-.bfooter-safe a:active {
+.bottom-footer a:active {
     text-decoration-line: none;
     color: grey;
 }
 
-.bfooter-safe a:hover {
+.bottom-footer a:hover {
     color: inherit;
 }
 
-.bfooter-safe a~a {
+.bottom-footer a~a {
     margin-left: 10px;
 }
 
 @media screen and (max-width: 767px) {
+    .topnav {
+        padding: 0.3rem 0rem 0.3rem 0rem;
+        background-color: transparent;
+    }
+
     .topnav-right {
         display: none;
     }
