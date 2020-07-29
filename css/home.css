@@ -9,7 +9,7 @@
     margin: 20% auto 20% auto;
 }
 
-.intro h1,small {
+.intro h1, .intro small {
     animation: fadeIn;
     animation-duration: 3s;
 }
