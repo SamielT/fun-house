@@ -10,6 +10,7 @@ html, body {
 
 html {
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -141,7 +142,7 @@ body {
     color: inherit;
 }
 
-@media screen and (max-width: 767px) {
+
     .topnav {
         padding: 0rem 0rem 0rem 0.5rem;
     }
