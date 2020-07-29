@@ -5,17 +5,44 @@
 .intro {
     text-align: center;
     background-color: rgba(108, 117, 125, 0.5);
-    width: 50%;
-    margin: 20% auto 20% auto;
-}
-
-.intro h1, .intro small {
-    animation: fadeIn;
-    animation-duration: 3s;
+    width: 45%;
+    margin: 15% auto 20% auto;
+    white-space: nowrap;
+    animation: zoomIn;
+    animation-duration: 1s;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .intro h1 {
     font-weight: bold;
+    margin: 0;
+    animation: fadeIn;
+    animation-duration: 1.5s;
+}
+
+.intro small {
+  font-family: monospace;
+  font-weight: bold;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .1em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+.intro hr {
+    border-width: 2px;
+    margin-top: 0;
+    animation: zoomIn;
+    animation-duration: 3s;
+    border-color: black;
+    width: inherit;
 }
 
 .inspire {
@@ -50,4 +77,14 @@
     font-size: 24px;
     float: left;
     margin: auto;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: inherit }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
 }
