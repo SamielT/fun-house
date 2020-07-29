@@ -93,6 +93,11 @@ html body {
     display: none;
 }
 
+.topsocial a:hover {
+    color: initial;
+    text-decoration: none;
+}
+
 .topsocial a {
     font-size: 48px;
     padding: 8px;
@@ -128,23 +133,18 @@ html body {
     color: inherit;
 }
 
-.bottom-footer a {
+.bottom-footer {
     padding: 10px;
     color: inherit;
-    font-size: 14px;
 }
 
-.bottom-footer a:active {
+.bottom-footer:active {
     text-decoration-line: none;
     color: grey;
 }
 
-.bottom-footer a:hover {
+.bottom-footer:hover {
     color: inherit;
-}
-
-.bottom-footer a~a {
-    margin-left: 10px;
 }
 
 @media screen and (max-width: 767px) {
