@@ -87,7 +87,7 @@
 @media screen and (max-width: 767px) {
     .intro {
         text-align: center;
-        width: 45%;
+        width: 65%;
         padding: 20px;
     }
 
@@ -97,9 +97,11 @@
 
     .intro hr {
         width: auto;
+        margin-bottom: 0;
     }
 
     .intro small {
         font-size: 0.5rem;
+
     }
 }
