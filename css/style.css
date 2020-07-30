@@ -9,12 +9,7 @@ html, body {
 }
 
 html {
-    overflow: hidden;
     scroll-behavior: smooth;
-}
-
-body {
-  /* overflow: auto; */
 }
 
 .topnav {
