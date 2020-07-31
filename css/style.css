@@ -161,7 +161,8 @@ html {
     }
 
     .bottom-footer {
-        margin: 3rem 2rem 3rem 2rem;
+        margin: 0em;
+        margin-bottom: 3em;
     }
 }
 
