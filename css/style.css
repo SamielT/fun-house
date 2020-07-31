@@ -100,7 +100,7 @@ html {
 }
 
 .topsocial a {
-    font-size: 36px;
+    font-size: 40px;
     padding: 8px;
     border-radius: 50%;
     color: black;
@@ -158,6 +158,10 @@ html {
 
     .topsocial a {
         display: block;
+    }
+
+    .bottom-footer{
+        margin: 4rem 2rem 4rem 2rem;
     }
 }
 
