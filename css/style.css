@@ -162,7 +162,8 @@ html {
     }
 
     .bottom-footer {
-
+        margin: auto;
+        padding: 3em 1em 3em 1em;
     }
 }
 
