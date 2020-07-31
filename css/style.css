@@ -128,7 +128,6 @@ html {
     text-align: right;
     position: relative;
     margin: 2rem 3rem 2rem 3rem;
-    padding: 10px;
     color: inherit;
 }
 
@@ -160,8 +159,8 @@ html {
         display: block;
     }
 
-    .bottom-footer{
-        margin: 3rem 2rem 3rem 2rem;
+    .bottom-footer {
+        margin: 0rem;
     }
 }
 
