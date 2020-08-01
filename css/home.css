@@ -9,26 +9,35 @@
 .intro {
     text-align: center;
     background-color: rgba(108, 117, 125, 0.5);
+    box-shadow: 4px 10px 5px 1px rgba(0, 0, 0, 0.5);
+    border: solid 2px black;
     width: 45%;
     margin: 15% auto 20% auto;
-    white-space: nowrap;
-    animation: zoomIn;
-    animation-duration: 1s;
     color: black;
+    border-radius: 1em;
+    animation: bounceIn 1.5s;
 }
 
 .intro p {
     font-weight: bold;
     margin: 0;
     animation: fadeIn;
-    animation-duration: 1.5s;
+    animation-duration: 5s;
     font-size: 40px;
 }
 
 .intro small {
-  font-family: monospace;
-  font-weight: bold;
-  letter-spacing: .1em;
+    font-family: monospace;
+    font-weight: bold;
+    white-space: nowrap;
+    letter-spacing: .1em;
+    border-right: solid 2px white;
+    overflow: hidden;
+    margin: 0 auto;
+    animation: animated-text 4s steps(29, end) 1s 1 normal both,
+        animated-cursor 600ms steps(29, end) infinite;
+    display: flex;
+    flex-direction: row;
 }
 
 .intro hr {
@@ -74,15 +83,25 @@
     margin: auto;
 }
 
-/* @keyframes typing {
-  from { width: 0 }
-  to { width: inherit }
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 260px;
+    }
 }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
-} */
+@keyframes animated-cursor {
+    from {
+        border-right-color: white;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .intro {

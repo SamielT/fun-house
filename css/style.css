@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     background: linear-gradient(to right, #ffffff, #f0f3bd);
     height: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -7,13 +8,10 @@ html, body {
     padding: 0px;
 }
 
-html {
-
-}
+html {}
 
 .topnav {
     padding: 0.3rem 1.5rem 0.3rem 1.5rem;
-    position: absolute;
     user-select: none;
 }
 
@@ -120,9 +118,9 @@ html {
 }
 
 .mainbody {
-  min-height: 100%;
-  width: 100%;
-  overflow-x: hidden;
+    min-height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .bottom-footer {
